@@ -4,7 +4,7 @@ import Hero from "./pages/Hero";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import ProjectDetail from "./pages/Projectdetail";
-import ScrollToTop from "./pages/ScrolltoTop";
+import ScrolltoTop from "./pages/ScrolltoTop";
 import Contact from "./pages/Contact";
 import Cursor from "./pages/Cursor";
 import Intro from "./pages/Intro";
@@ -34,7 +34,7 @@ export default function App() {
 
       <Cursor />
       <Intro onReveal={() => setRevealed(true)} />
-      <ScrollToTop />
+      <ScrolltoTop />
 
       <Routes>
         {/* "/" → página principal */}
